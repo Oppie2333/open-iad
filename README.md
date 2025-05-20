@@ -141,7 +141,7 @@ python3 main.py -v -m cutpaste -n vit_b_16 -d mvtec2d -tid 0 -vid 0 -g 1
 python3 main.py -v -m patchcore -n wide_resnet50 -d mvtec2d -tid 0 -vid 0 -sp 0.001 -g 1
 python3 main.py -v -m reverse -n net_reverse -d mvtec2d -tid 0 -vid 0 -g 1
 python3 main.py -v -m simplenet -n wide_resnet50 -d mvtec2d -tid 0 -vid 0 -g 1
-python3 main.py -v -m spade -n resnet18 -d mvtec2d -tid 0 -vid 0 -g 1
+修改：python3 main.py -v -m spade -n wide_resnet50_2 -d mpdd -tid 0 -vid 0 -g 0
 python3 main.py -v -m stpm -n resnet18 -d mvtec2d -tid 0 -vid 0 -g 1
 ```
 
